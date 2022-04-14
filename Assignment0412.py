@@ -55,13 +55,15 @@ print("***********第四個作業****************")
 5 是質數???    是：因為他只被 1  及 5 整數
 """
 
-i=2
+
 for i in range(1,101):
-   j=2
-   for j in range(2,i):
-      if(i%j==0):
-         break
-   else:
-      print(i,end=" ")
+    for j in range(2,i):
+        if(i%j==0):
+            break
+    else:
+        print(i,end=" ")
+
+
+
 
 
